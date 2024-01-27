@@ -1,6 +1,5 @@
-
 resource "aws_s3_bucket" "bucket" {
-  bucket = "varun-tf-test-bucket-0acb9876"
+  bucket = "mit-tf-test-bucket-1000"
   acl    = "private"
 
   tags = {
